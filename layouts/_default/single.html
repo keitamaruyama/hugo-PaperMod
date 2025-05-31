@@ -3,7 +3,7 @@
 <article class="post-single">
   <header class="post-header">
     {{ partial "breadcrumbs.html" . }}
-    <h1 class="post-title entry-hint-parent">
+    <!-- <h1 class="post-title entry-hint-parent">
       {{ .Title }}
       {{- if .Draft }}
       <span class="entry-hint" title="Draft">
@@ -13,12 +13,12 @@
         </svg>
       </span>
       {{- end }}
-    </h1>
-    {{- if .Description }}
+    </h1> -->
+    <!-- {{- if .Description }}
     <div class="post-description">
       {{ .Description }}
     </div>
-    {{- end }}
+    {{- end }} -->
     {{- if not (.Param "hideMeta") }}
     <div class="post-meta">
       {{- partial "post_meta.html" . -}}
